@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Weather Forecast</h1>
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter city">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-info" id="weatherInfo" style="display: none;">
+            <div class="widget" id="cityNameWidget">
+                <h2 id="cityName"></h2>
+            </div>
+            <div class="widget" id="temperatureWidget">
+                <i class="fas fa-thermometer-half"></i>
+                <p id="temperature"></p>
+            </div>
+            <div class="widget" id="descriptionWidget">
+                <i id="descriptionIcon" class="fas fa-cloud-sun"></i>
+                <p id="description"></p>
+            </div>
+            <div class="widget" id="humidityWidget">
+                <i class="fas fa-tint"></i>
+                <p id="humidity"></p>
+            </div>
+            <div class="widget" id="windWidget">
+                <i class="fas fa-wind"></i>
+                <p id="wind"></p>
+            </div>
+            <div class="widget" id="pressureWidget">
+                <i class="fas fa-tachometer-alt"></i>
+                <p id="pressure"></p>
+            </div>
+        </div>
+        <button id="anotherCityBtn" style="display: none;">Try Another City</button>
+        <div id="loading" style="display: none;">Loading...</div>
+        <div id="error" style="display: none; color: red;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
