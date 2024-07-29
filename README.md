@@ -1,9 +1,9 @@
-**Name**: ARNAV RAJESH KADU
-**Company**: CODTECH IT SOLUTIONS
-**ID**: CT12DS354
-**Domain**: WEB DEVELOPMENT
-**Duration**: 8 WEEKS
-**Mentor**: MUZAMMIL
+- **Name:** Arnav Rajesh Kadu
+- **Company:** CODTECH IT SOLUTIONS
+- **ID:** CT12DS354
+- **Domain:** WEB DEVELOPMENT
+- **Duration:** 8 WEEKS
+- **Mentor:** Muzammil
 
 # WeatherNow - A Weather Forecast App
 
